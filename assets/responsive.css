@@ -103,6 +103,66 @@
     left: -.75rem;
    }
 
+
+
+    /* ==========================
+   MAIN CONTAINER STYLES
+   ========================== */
+
+   
+   /* =============================
+   FAVORITE SECTION TITLE STYLES
+   ================================ */
+   .favorite-title-content h1{
+      letter-spacing: 3px;
+   }
+
+   .leaf-1, 
+   .leaf-2{
+      width: 70px;
+      position: absolute;
+      opacity: .8;
+   }
+
+   .leaf-1{
+      left: 1rem;
+      bottom: 3rem;
+   }
+
+   .leaf-2{
+      right: -1rem;
+      top: -3rem;
+   }
+
+
+   /* =============================
+   FAVORITE SECTION IMAGES STYLES
+   ================================ */
+   .sec1-img-container{
+      display: flex;
+      justify-content: center;
+   }
+
+   .favorite-sec-img-container{
+      flex-direction: column;
+      justify-content: center;
+      gap: 0;
+   }
+
+   .favorite-sec-img-container img{
+      width: 300px;
+      padding-bottom: 70px;
+      rotate: 5deg;
+      display: flex;
+      filter: drop-shadow(0 12px 24px hsla(0, 0%, 0%, 0.536));
+   }
+
+   .favorite-sec-img-container .sec-img2 img{
+      width: 300px;
+      bottom: 0;
+   }
+
+
 }
 
 
@@ -208,6 +268,71 @@
 
    .banner-imgs .img-7{
    left: 7.75rem;
+   }
+
+
+   
+    /* ==========================
+   MAIN CONTAINER STYLES
+   ========================== */
+
+   
+   /* =============================
+   FAVORITE SECTION TITLE STYLES
+   ================================ */
+   .favorite-section{
+      padding: 100px 40px;
+      justify-content: center;
+    }
+
+   .favorite-title-content h1{
+      font-size: 60px;
+      letter-spacing: 3px;
+   }
+
+   .leaf-1, 
+   .leaf-2{
+      width: 70px;
+      position: absolute;
+      opacity: .8;
+   }
+
+   .leaf-1{
+      left: 1rem;
+      bottom: 3rem;
+   }
+
+   .leaf-2{
+      right: 1rem;
+      top: -3rem;
+   }
+
+
+   /* =============================
+   FAVORITE SECTION IMAGES STYLES
+   ================================ */
+   .sec1-img-container{
+      display: flex;
+      justify-content: center;
+   }
+
+   .favorite-sec-img-container{
+      flex-direction: column;
+      justify-content: center;
+      gap: 0;
+   }
+
+   .favorite-sec-img-container img{
+      width: 350px;
+      padding-bottom: 70px;
+      rotate: 10deg;
+      display: flex;
+      filter: drop-shadow(0 12px 24px hsla(0, 0%, 0%, 0.536));
+   }
+
+   .favorite-sec-img-container .sec-img2 img{
+      width: 350px;
+      bottom: 0;
    }
 }
 
@@ -315,6 +440,70 @@
    .banner-imgs .img-7{
    left: 3.75rem;
    }
+
+
+
+   /* ==========================
+   MAIN CONTAINER STYLES
+   ========================== */
+
+   
+   /* =============================
+   FAVORITE SECTION TITLE STYLES
+   ================================ */
+   .favorite-section{
+      padding: 100px 50px;
+      justify-content: center;
+    }
+
+   .favorite-title-content h1{
+      font-size: 60px;
+      letter-spacing: 3px;
+   }
+
+   .leaf-1, 
+   .leaf-2{
+      width: 70px;
+      position: absolute;
+      opacity: .8;
+   }
+
+   .leaf-1{
+      left: 1rem;
+      bottom: 3rem;
+   }
+
+   .leaf-2{
+      right: 1rem;
+      top: -3rem;
+   }
+
+
+   /* =============================
+   FAVORITE SECTION IMAGES STYLES
+   ================================ */
+   .sec1-img-container{
+      display: flex;
+      justify-content: center;
+   }
+
+   .favorite-sec-img-container{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+   }
+
+   .favorite-sec-img-container img{
+      width: 200px;
+      padding-bottom: 70px;
+      display: flex;
+      filter: drop-shadow(0 12px 24px hsla(0, 0%, 0%, 0.536));
+   }
+
+   .favorite-sec-img-container .sec-img2 img{
+      width: 300px;
+      bottom: 6;
+   }
 }
 
 
@@ -421,5 +610,69 @@
 
    .banner-imgs .img-7{
    left: 10.75rem;
+   }
+
+
+
+   /* ==========================
+   MAIN CONTAINER STYLES
+   ========================== */
+
+   
+   /* =============================
+   FAVORITE SECTION TITLE STYLES
+   ================================ */
+   .favorite-section{
+      padding: 100px 70px;
+      justify-content: center;
+    }
+
+   .favorite-title-content h1{
+      font-size: 60px;
+      letter-spacing: 3px;
+   }
+
+   .leaf-1, 
+   .leaf-2{
+      width: 70px;
+      position: absolute;
+      opacity: .8;
+   }
+
+   .leaf-1{
+      left: 1rem;
+      bottom: 3rem;
+   }
+
+   .leaf-2{
+      right: 6rem;
+      top: -3rem;
+   }
+
+
+   /* =============================
+   FAVORITE SECTION IMAGES STYLES
+   ================================ */
+   .sec1-img-container{
+      display: flex;
+      justify-content: center;
+   }
+
+   .favorite-sec-img-container{
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+   }
+
+   .favorite-sec-img-container img{
+      width: 250px;
+      padding-bottom: 70px;
+      display: flex;
+      filter: drop-shadow(0 12px 24px hsla(0, 0%, 0%, 0.536));
+   }
+
+   .favorite-sec-img-container .sec-img2 img{
+      width: 350px;
+      bottom: 6;
    }
 }
