@@ -1,0 +1,73 @@
+/* ==========================
+   GOOGLE FONTS
+   ========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+/* ==========================
+   RESET STYLES
+   ========================== */
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+
+/* ==========================
+   GLOBAL STYLES
+   ========================== */
+   body{
+    background: rgb(0,85,35);
+   }   
+
+   a{
+    text-decoration: none;
+    cursor: pointer;
+   }
+
+   li{
+    list-style: none;
+    cursor: pointer;
+   }
+
+
+/* ==========================
+   HEADER STYLES
+   ========================== */
+   header{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px 100px 20px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+   }
+
+   .header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+
+   .logo-container h1{
+    font-family: "Titan One", sans-serif;
+   }
+
+   .navigation-container{
+    display: flex;
+    gap: 50px;
+   }
+
+   .primary-nav {
+      display: flex;
+      gap: 70px;
+      font-weight: 500;
+   }
+
+   .secondary-nav{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+   }
+
+   
