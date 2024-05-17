@@ -162,6 +162,23 @@
       bottom: 0;
    }
 
+   
+   /* =============================
+   CARE SECTION TITLE STYLES
+   ================================ */
+   .care-img-container{
+      flex-direction: column-reverse;
+   }
+
+   .care-img img{
+      width: 100%;
+      filter: drop-shadow(0 12px 24px hsla(0, 0%, 0%, 0.361));
+   }
+
+   .care-img-container-title{
+      width: 100%;
+      justify-content: center;
+   }
 
 }
 
@@ -334,6 +351,30 @@
       width: 350px;
       bottom: 0;
    }
+
+
+   /* =============================
+   CARE SECTION TITLE STYLES
+   ================================ */
+   .care-section{
+      padding: 50px 40px 100px 40px;
+      justify-content: center;
+   }
+
+   .care-img-container{
+      flex-direction: column-reverse;
+   }
+
+   .care-img img{
+      width: 100%;
+      filter: drop-shadow(0 12px 24px hsla(0, 0%, 0%, 0.361));
+   }
+
+   .care-img-container-title{
+      width: 100%;
+      justify-content: center;
+   }
+
 }
 
 
@@ -504,6 +545,29 @@
       width: 300px;
       bottom: 6;
    }
+
+   /* =============================
+   CARE SECTION TITLE STYLES
+   ================================ */
+   .care-section{
+      padding: 50px 50px 100px 50px;
+      justify-content: center;
+   }
+
+   .care-img-container{
+      flex-direction: column-reverse;
+   }
+
+   .care-img img{
+      width: 100%;
+      filter: drop-shadow(0 12px 24px hsla(0, 0%, 0%, 0.361));
+   }
+
+   .care-img-container-title{
+      width: 100%;
+      justify-content: center;
+   }
+   
 }
 
 
@@ -674,5 +738,27 @@
    .favorite-sec-img-container .sec-img2 img{
       width: 350px;
       bottom: 6;
+   }
+
+   /* =============================
+   CARE SECTION TITLE STYLES
+   ================================ */
+   .care-section{
+      padding: 50px 70px 100px 70px;
+      justify-content: center;
+   }
+
+   .care-img-container{
+      display: flex;
+   }
+
+   .care-img img{
+      width: 100%;
+      filter: drop-shadow(0 12px 24px hsla(0, 0%, 0%, 0.361));
+   }
+
+   .care-img-container-title{
+      width: 100%;
+      justify-content: center;
    }
 }
