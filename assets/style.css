@@ -288,3 +288,59 @@
       position: relative;
       bottom: 4rem;
    }
+
+
+
+   
+   /* =============================
+   CARE SECTION TITLE STYLES
+   ================================ */
+   .care-section{
+      padding: 100px 0;
+      justify-content: center;
+   }
+
+   .care-up-title h1{
+      font-size: 50px;
+      font-family: "Titan One", sans-serif;
+      color: #fff;
+      text-shadow: 0 2px 4px hsl(146, 95%, 7%);
+      letter-spacing: 2px;
+      text-align: center;
+   }
+
+   .care-img-container{
+      padding-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+   }
+
+   .care-img img{
+      width: 500px;
+      filter: drop-shadow(0 12px 24px hsla(0, 0%, 0%, 0.361));
+   }
+
+   .care-img-container-title{
+      width: 400px;
+      justify-content: center;
+   }
+
+   .care-img-title-content{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+   }
+
+   .care-img-title-content i{
+      color: hsl(45, 100%, 52%);
+      font-size: 25px;
+   }
+
+   .care-img-title-content p{
+      font-family: "Poppins", sans-serif;
+      color: #fff;
+      text-shadow: 0 2px 4px hsl(146, 95%, 7%);
+      font-size: 13px;
+   }
