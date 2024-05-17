@@ -68,6 +68,8 @@
 
    .logo-container h1{
     font-family: "Titan One", sans-serif;
+    text-shadow: 0 2px 4px hsl(146, 95%, 7%);
+    letter-spacing: 2px;
    }
    
 
@@ -108,7 +110,7 @@
    .banner-content h1{
       font-size: 80px;
       font-family: "Titan One", sans-serif;
-      text-shadow: 0 2px 4px hsl(145, 93%, 11%);
+      text-shadow: 0 2px 4px hsl(146, 95%, 7%);
    }
 
    .banner-content p{
@@ -116,6 +118,7 @@
       font-size: 15px;
       padding: 20px 0 30px 0;
       width: 400px;
+      text-shadow: 0 2px 4px hsl(146, 95%, 7%);
    }
 
    .banner-btn{
@@ -212,3 +215,73 @@
   .banner-imgs .img-7{
    left: -.75rem;
   }
+
+
+
+  /* ==========================
+   MAIN CONTAINER STYLES
+   ========================== */
+
+   /* ==========================
+   FAVORITE SECTION STYLES
+   ========================== */
+   .favorite-section{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 100px 20px;
+   }
+
+   .favorite-title-content {
+        position: relative;
+        text-align: center;
+   }
+
+   .favorite-title-content h1{
+      font-size: 50px;
+      font-family: "Titan One", sans-serif;
+      color: #fff;
+      text-shadow: 0 2px 4px hsl(146, 95%, 7%);
+      letter-spacing: 2px;
+   }
+
+   .favorite-title-content p{
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      color: #fff;
+      text-shadow: 0 2px 4px hsl(146, 95%, 7%);
+      padding: 20px 0 150px 0;
+   }
+
+   .leaf-1, 
+   .leaf-2{
+      width: 100px;
+      position: absolute;
+      opacity: .8;
+   }
+
+   .leaf-1{
+      left: 2rem;
+      bottom: 3rem;
+   }
+
+   .leaf-2{
+      right: 17rem;
+      top: -4rem;
+   }
+
+   .favorite-sec-img-container{
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+   }
+
+   .favorite-sec-img-container img{
+      width: 260px;
+      filter: drop-shadow(0 12px 24px hsla(0, 0%, 0%, 0.536));
+   }
+
+   .favorite-sec-img-container .sec-img2 img{
+      width: 350px;
+      position: relative;
+      bottom: 4rem;
+   }
