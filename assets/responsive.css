@@ -104,3 +104,322 @@
    }
 
 }
+
+
+@media screen and (min-width:577px) and (max-width:768px){
+   /* ==========================
+      HEADER STYLES
+   ========================== */
+   header{
+      padding: 30px 40px 100px 40px;
+     }
+
+   .logo-container h1{
+      font-size: 35px;
+      letter-spacing: 2px;
+   }
+
+
+   /* ==========================
+   NEVIGATION STYLES
+   ========================== */
+   .primary-nav {
+      display: none;
+   }
+
+   /* ==========================
+   BANNER STYLES
+   ========================== */
+   .banner-container{
+   flex-direction: column;
+   gap: 100px;
+   }
+
+   .banner-content{
+   width: 100%;
+   }   
+
+   .banner-content h1{
+   font-size: 70px;
+   width: 500px;
+   }
+
+   .banner-content p{
+   width: 100%;
+   padding: 20px 70px 30px 0;
+   font-size: 16px;
+   }   
+
+   .banner-btn{
+   gap: 30px;
+   }
+
+   .primary-banner-btn{
+   padding: 10px 30px;
+   }
+
+   .secondary-banner-btn{
+   padding: 10px 30px;
+   }
+
+
+   .banner-imgs{
+   width: 100%;
+   }
+
+   .bnr-img-circle{
+   width: 350px;
+   height: 350px;
+   }
+
+   .sub-circle{
+   width: 250px;
+   height: 250px;
+   }
+
+   .banner-imgs .img-1{
+   width: 300px;
+   rotate: 10deg;
+   }
+
+   .banner-imgs .img-2{
+   right: 8.5rem;
+   }
+
+   .banner-imgs .img-3{
+   right: 9.1rem;
+   bottom: -.75rem;
+   }
+
+   .banner-imgs .img-4{
+   top: -.25rem;
+   left: 8.5rem;
+   }
+
+   .banner-imgs .img-5{
+   top: -1.5rem;
+   right: 8.1rem;
+   }
+
+   .banner-imgs .img-6{
+   left: 9.2rem;
+   top: 20rem;
+   }
+
+   .banner-imgs .img-7{
+   left: 7.75rem;
+   }
+}
+
+
+@media screen and (min-width:769px) and (max-width:992px){
+   /* ==========================
+      HEADER STYLES
+   ========================== */
+   header{
+      padding: 30px 50px 100px 50px;
+     }
+
+   .logo-container h1{
+      font-size: 35px;
+      letter-spacing: 2px;
+   }
+
+
+   /* ==========================
+   NEVIGATION STYLES
+   ========================== */
+   .primary-nav {
+      display: none;
+   }
+
+   /* ==========================
+   BANNER STYLES
+   ========================== */
+   .banner-container{
+   flex-direction: column;
+   gap: 100px;
+   }
+
+   .banner-content{
+   width: 100%;
+   }   
+
+   .banner-content h1{
+   font-size: 80px;
+   width: 600px;
+   }
+
+   .banner-content p{
+   width: 100%;
+   padding: 20px 190px 30px 0;
+   font-size: 16px;
+   }   
+
+   .banner-btn{
+   gap: 30px;
+   }
+
+   .primary-banner-btn{
+   padding: 10px 30px;
+   }
+
+   .secondary-banner-btn{
+   padding: 10px 30px;
+   }
+
+
+   .banner-imgs{
+   width: 100%;
+   }
+
+   .bnr-img-circle{
+   width: 350px;
+   height: 350px;
+   }
+
+   .sub-circle{
+   width: 250px;
+   height: 250px;
+   }
+
+   .banner-imgs .img-1{
+   width: 300px;
+   rotate: 10deg;
+   }
+
+   .banner-imgs .img-2{
+   right: 3.70rem;
+   }
+
+   .banner-imgs .img-3{
+   right: 6.55rem;
+   bottom: -.75rem;
+   }
+
+   .banner-imgs .img-4{
+   top: -.25rem;
+   left: 4.75rem;
+   }
+
+   .banner-imgs .img-5{
+   top: -1.5rem;
+   right: 7.90rem;
+   }
+
+   .banner-imgs .img-6{
+   left: 7.90rem;
+   top: 20rem;
+   }
+
+   .banner-imgs .img-7{
+   left: 3.75rem;
+   }
+}
+
+
+@media screen and (min-width:993px) and (max-width:1200px){
+   /* ==========================
+      HEADER STYLES
+   ========================== */
+   header{
+      padding: 30px 70px 100px 70px;
+     }
+
+   .logo-container h1{
+      font-size: 35px;
+      letter-spacing: 2px;
+   }
+
+
+   /* ==========================
+   NEVIGATION STYLES
+   ========================== */
+   .primary-nav {
+      display: none;
+   }
+
+   /* ==========================
+   BANNER STYLES
+   ========================== */
+   .banner-container{
+   flex-direction: column;
+   gap: 100px;
+   }
+
+   .banner-content{
+   width: 100%;
+   }   
+
+   .banner-content h1{
+   font-size: 80px;
+   width: 600px;
+   }
+
+   .banner-content p{
+   width: 100%;
+   padding: 20px 250px 30px 0;
+   font-size: 16px;
+   }   
+
+   .banner-btn{
+   gap: 30px;
+   }
+
+   .primary-banner-btn{
+   padding: 10px 30px;
+   }
+
+   .secondary-banner-btn{
+   padding: 10px 30px;
+   }
+
+
+   .banner-imgs{
+   width: 100%;
+   padding-top: 100px;
+   }
+
+   .bnr-img-circle{
+   width: 370px;
+   height: 370px;
+   }
+
+   .sub-circle{
+   width: 300px;
+   height: 300px;
+   }
+
+   .banner-imgs .img-1{
+   width: 350px;
+   rotate: 13deg;
+   }
+
+   .banner-imgs .img-2{
+   right: 10.70rem;
+   }
+
+   .banner-imgs .img-3{
+   right: 15.55rem;
+   bottom: -.75rem;
+   }
+
+   .banner-imgs .img-4{
+   top: -.25rem;
+   left: 10.75rem;
+   }
+
+   .banner-imgs .img-5{
+   top: -1.5rem;
+   right: 7.90rem;
+   }
+
+   .banner-imgs .img-6{
+   left: 7.90rem;
+   top: 20rem;
+   }
+
+   .banner-imgs .img-7{
+   left: 10.75rem;
+   }
+}
