@@ -21,4 +21,86 @@
     gap: 15px;
     font-size: 20px;
     }
+
+
+/* ==========================
+   BANNER STYLES
+   ========================== */
+   .banner-container{
+    flex-direction: column;
+    gap: 100px;
+ }
+
+   .banner-content{
+    width: 100%;
+   }   
+
+   .banner-content h1{
+    font-size: 55px;
+ }
+
+ .banner-content p{
+    width: 100%;
+ }   
+ 
+ .banner-btn{
+    gap: 20px;
+ }
+ 
+ .primary-banner-btn{
+    padding: 10px 20px;
+ }
+
+ .secondary-banner-btn{
+    padding: 10px 20px;
+ }
+
+ 
+ .banner-imgs{
+    width: 100%;
+   }
+
+   .bnr-img-circle{
+    width: 300px;
+    height: 300px;
+   }
+
+   .sub-circle{
+    width: 250px;
+    height: 250px;
+   }
+ 
+   .banner-imgs .img-1{
+    width: 250px;
+    rotate: 10deg;
+   }
+
+   .banner-imgs .img-2{
+    right: -.5rem;
+   }
+ 
+   .banner-imgs .img-3{
+    right: -.1rem;
+    bottom: -.75rem;
+   }
+ 
+   .banner-imgs .img-4{
+    top: -.25rem;
+    left: -.5rem;
+   }
+ 
+   .banner-imgs .img-5{
+    top: -1.5rem;
+    right: -1rem;
+   }
+ 
+   .banner-imgs .img-6{
+    left: 2rem;
+    top: 20rem;
+   }
+ 
+   .banner-imgs .img-7{
+    left: -.75rem;
+   }
+
 }
